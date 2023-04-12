@@ -18,9 +18,18 @@ git init
 4. 원격 Repository 별명 설정하기 : `git remote add origin https://github.com/JeongHojin96/ Biz-2023-04-Java.git`
 
 ### 기존의 repository 에 계속해서 update 하고자 할때
-5. 현재 폴더의 파일과 폴더를 local Repository에 압축 및 암호화하여 보관하기 : `git add .`
-6. 현재 local Repository에 보관된 압축된 데이터에 대한 Comment를 추가하기 : `git commit -m first`
-7. local Repsitory 에 보관된 압축된 데이트를 원격 Repsoitory 로 push : `git push -u origin master`
+5. 현재 폴더의 파일과 폴더를 local Repository에 압축 및 암호화하여 보관하기 : 
+```bash
+git add .
+```
+6. 현재 local Repository에 보관된 압축된 데이터에 대한 Comment를 추가하기 : 
+```bash
+git commit -m first
+```
+7. local Repsitory 에 보관된 압축된 데이트를 원격 Repsoitory 로 push :
+```bash
+git push -u origin master
+```
 
 ```bash
 git init
