@@ -15,7 +15,10 @@ git config --global user.email JeongHojin96@JeongHojin96.com
 git init
 ```
 3. Repository에 대한 설명을 하기 위하여 README.md 파일 생성하기
-4. 원격 Repository 별명 설정하기 : `git remote add origin https://github.com/JeongHojin96/ Biz-2023-04-Java.git`
+4. 원격 Repository 별명 설정하기 : 
+```bash
+git remote add origin https://github.com/JeongHojin96/ Biz-2023-04-Java.git
+```
 
 ### 기존의 repository 에 계속해서 update 하고자 할때
 5. 현재 폴더의 파일과 폴더를 local Repository에 압축 및 암호화하여 보관하기 : 
